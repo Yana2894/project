@@ -69,3 +69,7 @@ console.log(personalMovieDB);
       }
  }
 
+ writeYourGenres();
+ 
+
+
