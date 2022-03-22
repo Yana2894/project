@@ -62,8 +62,10 @@ console.log(personalMovieDB);
  function writeYourGenres (){
       
       for(let i = 1; i < 4; i++){
-       const  favoriteGenre = prompt("Ваш любимый жанр под номером "+ i, "");
-        personalMovieDB.genres.push(favoriteGenre);
+    //    const  favoriteGenre = prompt("Ваш любимый жанр под номером "+ i, "");
+    //     personalMovieDB.genres.push(favoriteGenre);
+
+        personalMovieDB.genres[i] = prompt("Ваш любимый жанр под номером "+ i, "");
       }
  }
 
